@@ -1,0 +1,20 @@
+{"_e":"root:init","_t":1783612404187,"format":"v0-jsonl","version":"57.0.6"}
+{"_e":"env:mode","_t":1783612404188,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783612404189,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1783612404340,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1783612404587,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1783612404723,"plugins":[]}
+{"_e":"metro:instantiate","_t":1783612405005,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:client_log","_t":1783612519939,"level":"error","data":["Project is incompatible with this version of Expo Go\n\nThis project requires a newer version of Expo Go.\n\nHow to fix this error:\nDownload the latest version of Expo Go from the Play Store."]}
+{"_e":"metro:client_log","_t":1783612607337,"level":"error","data":["Project is incompatible with this version of Expo Go\n\nThis project requires a newer version of Expo Go.\n\nHow to fix this error:\nDownload the latest version of Expo Go from the Play Store."]}
+{"_e":"metro:client_log","_t":1783612614551,"level":"error","data":["Project is incompatible with this version of Expo Go\n\nThis project requires a newer version of Expo Go.\n\nHow to fix this error:\nDownload the latest version of Expo Go from the Play Store."]}
+{"_e":"metro:client_log","_t":1783612637032,"level":"error","data":["Project is incompatible with this version of Expo Go\n\nThis project requires a newer version of Expo Go.\n\nHow to fix this error:\nDownload the latest version of Expo Go from the Play Store."]}
+{"_e":"root:init","_t":1783612736007,"format":"v0-jsonl","version":"57.0.6"}
+{"_e":"env:mode","_t":1783612736008,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1783612736009,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1783612736150,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1783612736390,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1783612736524,"plugins":[]}
+{"_e":"metro:instantiate","_t":1783612736799,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:client_log","_t":1783612743614,"level":"error","data":["Project is incompatible with this version of Expo Go\n\nThis project requires a newer version of Expo Go.\n\nHow to fix this error:\nDownload the latest version of Expo Go from the Play Store."]}
+{"_e":"metro:client_log","_t":1783612782385,"level":"error","data":["Project is incompatible with this version of Expo Go\n\n• The installed version of Expo Go is for SDK 54.\n• The project you opened uses SDK 52.\n\nHow to fix this error:\nEither upgrade this project to SDK 54 or install an older version of Expo Go that is compatible with your project.\n\n<a href='https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/'>Learn how to upgrade to SDK 54.</a>\n\n<a href='https://expo.dev/go?sdkVersion=52&platform=android&device=true'>Learn how to install Expo Go for SDK 52</a>."]}
