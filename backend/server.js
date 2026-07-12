@@ -2,26 +2,37 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 
+const connectDB = require('./config/db');
+const authRoutes = require('./routes/authRoutes');
+const productRoutes = require('./routes/productRoutes');
+const notificationRoutes = require('./routes/notificationRoutes');
+const { initScheduler } = require('./cron/priceScheduler');
+
+// Connect to MongoDB
+connectDB();
+
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.use(cors());
 app.use(express.json());
 
-// Basic health check route
+// Routes
+app.use('/api/auth', authRoutes);
+app.use('/api', productRoutes); // Contains /products and /wishlist
+app.use('/api', notificationRoutes); // Contains /notifications
+
+// Health check routes
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', message: 'Prix Backend is running' });
 });
 
-// Auth Routes placeholder
-app.post('/api/auth/google', (req, res) => {
-  res.json({ message: 'Google auth placeholder' });
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', message: 'Prix Backend is running' });
 });
 
-// Products & Wishlist Routes placeholder
-app.get('/api/wishlist', (req, res) => {
-  res.json([]);
-});
+// Start Scheduler
+initScheduler();
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
